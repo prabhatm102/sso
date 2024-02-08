@@ -1,0 +1,30 @@
+{
+  "name": "azure-sso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@node-saml/passport-saml": "^4.0.4",
+    "axios": "^1.6.7",
+    "base64-url": "^2.3.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "passport": "^0.7.0",
+    "passport-saml": "^3.2.4",
+    "saml2-js": "^4.0.2",
+    "samlify": "^2.8.10",
+    "url": "^0.11.3",
+    "xml-crypto": "^6.0.0",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.6.2"
+  }
+}
